@@ -1,1 +1,11 @@
-COLLABS
+pythontutorial | https://www.pythontutorial.net/python-basics/python-read-text-file/ | To learn how to read the txt files
+computerhope | https://www.computerhope.com/issues/ch001721.htm | To learn how to read the txt files
+stackoverflow | https://stackoverflow.com/questions/63221913/named-entity-recognition-with-huggingface-transformers-mapping-back-to-complete | To learn about hugging face package
+docs.python | https://docs.python.org/3/howto/regex.html | To learn how to write regex expressions
+codeunderscored | https://www.codeunderscored.com/regular-expressions-in-python/ | To learn methods used for regex expressions
+codegrepper | https://www.codegrepper.com/code-examples/python/save+files+in+a+particular+folder+python | To learn how to create directories and files using python
+geeksforgeeks | https://www.geeksforgeeks.org/os-module-python-examples/ | To learn about os module
+stackoverflow | https://stackoverflow.com/questions/11700593/creating-files-and-directories-via-python | To know how to check whether the directory is created or not
+geeksforgeeks | https://www.geeksforgeeks.org/python-check-if-a-file-or-directory-exists-2/#:~:text=Check%20if%20a%20directory%20exists%20os.path.isdir%20%28%29%20method,a%20directory%20then%20the%20method%20will%20return%20True. | To know how to check whether the directory is created or not in python
+geeksforgeeks | https://www.geeksforgeeks.org/python-dictionary-items-method/#:~:text=In%20Python%20Dictionary%2C%20items%20%28%29%20method%20is%20used,of%20a%20given%20dictionary%E2%80%99s%20%28key%2C%20value%29%20tuple%20pair. | To learn more about dictionaries in python
+
