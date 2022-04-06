@@ -271,7 +271,7 @@ required packages.  you need to install pytest using this command `pipenv instal
 run the unittests using `pipenv run python -m pytest`. you can run the code using
 `pipenv run python redactor.py --input '*.txt' \
                     --names --dates --phones --genders --address\
-                    --concept 'kids' \
+                    --concept 'good' \
                     --output 'files/' \
                     --stats stderr`.
 ## EXTERNAL LINKS USED:
