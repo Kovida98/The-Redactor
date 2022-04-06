@@ -21,6 +21,32 @@ Author Email: kovida.mothukuri-1@ou.edu
 
 ## TREE STRUCTURE:
 
+```
+.
+├── COLLABORATORS
+├── LICENSE
+├── README.md
+├── project1
+│        ├── 1.txt
+│        ├── 107.txt
+│        ├── 2.txt
+│        ├── files
+│              ├── 1.redacted
+│              ├── 107.redacted
+│              └── 2.redacted
+│        ├── main.py
+│        ├── project1.py
+│        ├── redactor.py
+│        └── stderr
+│            └── stderr.txt
+├── requirements.txt
+├── setup.cfg
+├── setup.py
+└── tests
+    ├── test.txt
+    └── test_all.py
+```
+
 ## PACKAGES USED:
 
 To run this code we need following packages:
