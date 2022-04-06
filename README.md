@@ -1,4 +1,4 @@
-##REDACTOR
+## THE REDACTOR
 
 When sensitive material is shared with the public, it must first be 
 redacted. That is, any sensitive names, locations, and other sensitive
