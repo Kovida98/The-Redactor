@@ -1,37 +1,89 @@
-Messsage-ID: <18782981.1075855378110.JavaMail.evans@thyme>
-Date: Mon, 14 May 2001 16:39:00 -0700 (PDT)
+Message-ID: <5468446.1075855378133.JavaMail.evans@thyme>
+Date: Mon, 14 May 2001 13:39:00 -0700 (PDT)
 From: phillip.allen@enron.com
-To: tim.belden@enron.com
-Subject: 
+To: outlook.team@enron.com
+Subject: Re: 2- SURVEY/INFORMATION EMAIL 5-14- 01
 Mime-Version: 1.0
 Content-Type: text/plain; charset=us-ascii
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: quoted-printable
 X-From: Phillip K Allen
-X-To: Tim Belden <Tim Belden/Enron@EnronXGate>
+X-To: Outlook Migration Team <Outlook Migration Team/Corp/Enron@ENRON>
 X-cc: 
 X-bcc: 
 X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\'Sent Mail
 X-Origin: Allen-P
 X-FileName: pallen (Non-Privileged).pst
 
-Here is our forecast
-i am mother .
-
-my phone number is +512017617500
 
 
-+1-201-761-7500 , number is +912017617500
-
-+1 201 761 7500
-address is 12321 Classen Street California 73021
-address is 2657 Classen Blvd OK 
-
-CHRIS NISWANDEE
-SMALLSYS INC
-795 E DRAGRAM
-TUCSON AZ 85705
-USA
 
 
-21 East DRACHMAN
-TUCSON AZ
+
+Outlook Migration Team@ENRON
+05/11/2001 01:49 PM
+To:=09Cheryl Wilchynski/HR/Corp/Enron@ENRON
+cc:=09=20
+Subject:=092- SURVEY/INFORMATION EMAIL 5-14- 01
+
+Current Notes User:=20
+
+To ensure that you experience a successful migration from Notes to Outlook,=
+ it is necessary to gather individual user information prior to your date o=
+f migration.  Please take a few minutes to completely fill out the followin=
+g survey. Double Click on document to put it in "Edit" mode. When you finis=
+h, simply click on the 'Reply With History' button then hit 'Send'  Your su=
+rvey will automatically be sent to the Outlook 2000 Migration Mailbox.
+
+Thank you.
+
+Outlook 2000 Migration Team
+
+---------------------------------------------------------------------------=
+-----------------------------------------------------------------
+
+Full Name:        Phillip Allen=09=09
+
+Login ID:  =09pallen
+
+Extension:  =0937041
+
+Office Location:  EB3210C
+
+What type of computer do you have?  (Desktop,  Laptop,  Both)  =09Both
+
+Do you have a PDA?  If yes, what type do you have:   (None, IPAQ, Palm Pilo=
+t, Jornada)  IPAQ
+
+Do you have permission to access anyone's Email/Calendar?  =09
+    If yes, who? =20
+
+Does anyone have permission to access your Email/Calendar?  =09Yes, Ina Ran=
+gel
+    If yes, who? =20
+
+Are you responsible for updating anyone else's address book?  =09
+    If yes, who? =20
+
+Is anyone else responsible for updating your address book? =20
+    If yes, who? =20
+
+Do you have access to a shared calendar? =20
+    If yes, which shared calendar? =20
+
+Do you have any Distribution Groups that Messaging maintains for you (for m=
+ass mailings)? =20
+    If yes, please list here: =20
+
+Please list all Notes databases applications that you currently use: =20
+
+In our efforts to plan the exact date/time of your migration, we also will =
+need to know:
+
+What are your normal work hours?  From:   7   To:      5
+
+Will you be out of the office in the near future for vacation, leave, etc?
+       If so, when?        From (MM/DD/YY):      To (MM/DD/YY):     =20
+
+
+
+
