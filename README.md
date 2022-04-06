@@ -217,7 +217,7 @@ Here to run the file we have to use below command:
 --stats stderr
 `
 
-**Expected Output:**
+
 
 To run test cases we can use any one of the following commands
 
