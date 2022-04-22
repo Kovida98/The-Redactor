@@ -11,7 +11,9 @@ from transformers import AutoModel
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 from transformers import TokenClassificationPipeline
 from transformers import BertTokenizer
-
+import sys
+import warnings
+warnings.filterwarnings("ignore")
 
 def name_redaction(lines):
 
@@ -178,44 +180,58 @@ def concept_redaction(lines,word):
 
 def output(lines,i,foldername):
 #output
+    if foldername=="stdout":
+        s = sys.stdout
+        s.write("\n")
+        s.write("---------------------------------------------------------------------------")
+        s.write("\n")
+        s.write(lines)
+    elif foldername=="stderr":
+        s=sys.stderr
+    else:
+        d = os.getcwd()
+        import ntpath
 
-    d=os.getcwd()
-    #print(d)
-    import ntpath
-    path1= ntpath.basename(i)
-    path=path1[:-4]
-    #print(path)
-    #print(ntpath.basename(lis[9]))
-    #dir="Output_files"
-    path2 = os.path.join(d+'/', foldername)
-    if not os.path.exists(path2):
-        os.makedirs(path2)
-    completepath=os.path.join(path2,path+'.redacted')
-    with open(completepath,'w', encoding='utf-8') as ofile:
-        ofile.writelines(lines)
-        ofile.close()
-    return path
+        path1 = ntpath.basename(i)
+        path2 = os.path.join(d + '/', foldername)
+        if not os.path.exists(path2):
+            os.makedirs(path2)
+        completepath = os.path.join(path2, path1 + '.redacted')
+        with open(completepath, 'w', encoding='utf-8') as ofile:
+            ofile.writelines(lines)
+            ofile.close()
+
 
 
 
 def stats_files(stats_list,foldername):
 
-
-    cwd_dir = os.getcwd()
-#    print(cwd_dir)
-    #folder_name="stats"
-#    file_name="stder"
-    path = os.path.join(cwd_dir + '/', foldername)
-    if not os.path.exists(path):
-        os.makedirs(path)
-    filename=foldername+'.txt'
-    with open(os.path.join(path+'/',filename),'a',encoding='UTF-8') as ofile:
-        for key, value in stats_list.items():
+    if foldername=="stdout":
+        s = sys.stdout
+        #s.write(stats_list)
+        for key,value in stats_list.items():
+            #s.write(i + '\n')
             items_list = [str(item) for item in value]
-            stats_string = ' '.join(items_list)
-            ofile.write(str(key))
-            ofile.write(str(stats_string))
-        ofile.close()
+            stats_string = ''.join(items_list)
+            s.write(str(key) +':')
+            s.write(str(stats_string) + ' ')
+            #s.write('\n')
+    elif  foldername=="stderr":
+        s=sys.stderr
+        s.write("There are no errors for this file\n")
+    else:
+        cwd_dir = os.getcwd()
+        filename=foldername+'.txt'
+        path = os.path.join(filename)
+        with open(path, 'a', encoding='UTF-8') as ofile:
+            for key, value in stats_list.items():
+                items_list = [str(item) for item in value]
+                stats_string = ''.join(items_list)
+                ofile.write(str(key)+':')
+                ofile.write(str(stats_string)+' ')
+            ofile.close()
+
+
 
 
 

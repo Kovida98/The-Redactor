@@ -1,5 +1,7 @@
 import argparse
-import project1
+import os
+
+from project1 import project1
 import glob
 
 if __name__ == '__main__':
@@ -14,18 +16,18 @@ if __name__ == '__main__':
     parser.add_argument('--output',type=str,required=False, help= 'To keep the redacted files in to the particular folder')
     parser.add_argument('--stats',required=False, help='To keep the stats of redacted words in to a folder')
     args= parser.parse_args()
-    lis=glob.glob(args.input[0][0])
+    p=os.getcwd()
+    p1=p+"/docs/"
+    lis=glob.glob(p1+args.input[0][0])
     input_list=[]
 #    print(lis)
     for i in lis:
-            if i[-4:]==".txt":
-                with open(i) as f:
-                    lines = f.read()
-                    input_list.append(lines)
-            else:
-                print("Input file is not txt file and cannot be read:"+ i)
+        with open(i) as f:
+            lines = f.read()
+            input_list.append(lines)
 
     outputList = []
+    count=0
     for i in input_list:
         stats_list = []
         namesCount=0
@@ -56,11 +58,15 @@ if __name__ == '__main__':
         stats_dict['phonenumbers']=str(phoneCount)
         stats_dict['address']=str(addressCount)
         stats_list.append(stats_dict)
-#        print(stats_list)
+        #print(stats_list)
+        count+=1
         if args.stats:
             for j in stats_list:
                 #print(j)
+                print('\n')
+                print("redaction for file" +str(count) +":"+'\n')
                 project1.stats_files(j,args.stats)
+
 
 
 
@@ -68,6 +74,7 @@ if __name__ == '__main__':
     map_list=list(map)
     if args.output:
         for j in map_list:
+            #print(j)
             i = project1.output(j[1],j[0],args.output)
         #print(i)
 
